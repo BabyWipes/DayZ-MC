@@ -12,7 +12,7 @@ public class DayZ extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        this.getServer().getPluginManager().registerEvents(new DayZListener(), this);
+        this.getServer().getPluginManager().registerEvents(new DayZListener(this), this);
         createConfig();
     }
 
