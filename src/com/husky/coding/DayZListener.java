@@ -24,6 +24,11 @@ import org.bukkit.event.player.PlayerToggleSneakEvent;
 
 public class DayZListener implements Listener {
 
+    private DayZ plugin;
+
+    public DayZListener(DayZ instance) {
+        plugin = instance;
+    }
     YamlConfiguration data = YamlConfiguration.loadConfiguration(new File("plugins/DayZ/config.yml"));
     HashMap<String, Integer> killStreaks = new HashMap();
 
