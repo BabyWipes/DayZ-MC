@@ -30,7 +30,7 @@ public class DayZListener implements Listener {
         plugin = instance;
     }
     YamlConfiguration data = YamlConfiguration.loadConfiguration(new File("plugins/DayZ/config.yml"));
-    HashMap<String, Integer> killStreaks = new HashMap();
+    HashMap<String, Integer> killStreaks = new HashMap<String, Integer>();
 
     @EventHandler
     public void chat(AsyncPlayerChatEvent e) {
