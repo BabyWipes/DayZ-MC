@@ -1,4 +1,4 @@
-package src.com.husky.coding;
+package com.husky.coding;
 
 import java.io.File;
 import java.io.IOException;
