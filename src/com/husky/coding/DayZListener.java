@@ -1,4 +1,4 @@
-package com.husky.coding;
+package src.com.husky.coding;
 
 import java.io.File;
 import java.util.List;
@@ -20,7 +20,7 @@ import org.bukkit.event.player.PlayerRespawnEvent;
 import org.bukkit.event.player.PlayerToggleSneakEvent;
 
 public class DayZListener implements Listener {
-
+// test //
 	YamlConfiguration data = YamlConfiguration.loadConfiguration(new File("plugins/DayZ/config.yml"));
 
 	@EventHandler
